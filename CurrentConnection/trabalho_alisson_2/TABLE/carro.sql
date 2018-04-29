@@ -4,7 +4,5 @@ CREATE TABLE `carro` (
   `nome` varchar(50) DEFAULT NULL,
   `modelo` varchar(50) DEFAULT NULL,
   `preco` decimal(8,2) DEFAULT NULL,
-  `cor` varchar(20) DEFAULT NULL,
-  `placa` varchar(8) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=505 DEFAULT CHARSET=utf8
+) ENGINE=InnoDB AUTO_INCREMENT=501 DEFAULT CHARSET=utf8
